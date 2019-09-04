@@ -192,9 +192,9 @@ section.resume-section .resume-item .resume-date {
 
 @media only screen and (max-width: 640px){
   .img-profile2{
-    display:block;
-    margin-left:25%;
-    margin-right:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
