@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body{
+    margin:0;
+    margin-top:-10px;
+}
+
+
+.homepage {
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(180deg, rgba(40,169,241,1) 0%, rgba(21,6,61,1) 100%);
+    min-height: 300vh;
+    h1{
+      color:white;
+      font-size:60px;
+      font-weight:600;    
+    }
+    h2{
+      color:white;
+      font-size:40px;
+      font-weight:600;
+    }
+    h3{
+        font-size:30px;
+        font-weight:600;
+        color:white;
+    }
+    h4{
+      color:white;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    p{
+      font-size:18px;
+      font-weight:600;
+      color:white;
+    }
+  }
+
+  .background{
+    // background-image: url('/bg/All.svg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.section1{
+  min-height:100vh;
+  position: absolute;
+  top: 38vh;
+  p{
+    font-size: 20px;
+    font-weight:400;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+  }
+  .arrow-1{
+    position: relative;
+    top: 25vh;
+    transform:scale(0.5);
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .arrow-2{
+    position: relative;
+    top: 13vh;
+    transform:scale(0.5);
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes bounce {
+      0% {margin-top: 0px}
+      50% {margin-top: 10px}
+      100% {margin-top: 0px}
+  }
+}
+
+.section2{
+  min-height: 75vh;
+  margin-top:40vh;
+  margin-left:10vw;
+  margin-right:10vw;
+  h4{
+    margin-top:-4vh;
+    font-weight:400;
+  }
+  .icons{
+    display:flex;
+    .round{
+      width:50px;
+      height:50px;
+      margin-left:10px;
+      margin-right:10px;
+      img{
+        &:hover{
+          animation-name: bounce;
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+        }
+        @keyframes bounce {
+          0% {margin-top: 0px}
+          50% {margin-top: 10px}
+          100% {margin-top: 0px}
+      }
+      }
+    }
+  }  
+}
+
+.section3{
+  min-height:100vh;
+  margin-bottom:10vh;
+  .section3web{
+    display:block;
+    .section3Card{
+      background-color:white;
+      min-height:50vh;
+      border:1.5px solid #4492F7;
+      border-radius: 50px;
+      margin: 5vh 10vw 10vh 10vw;
+      color:#4492F7;
+      .section3Icon{
+        max-height:8vw;
+        max-width:8vw;
+        margin-top:3vh;
+        margin-bottom:15px;
+        display: flex;
+        justify-content: center;
+      }
+      .section3Title{
+        color:#4492F7;
+      }
+      .section3Desc{
+        color:#4492F7;
+        margin-left:5vw;
+        margin-right: 5vw;
+      }
+      .section3Button{
+        margin-top:2vh;
+        margin-bottom:10vh;
+        height:3vw;
+        width:12vw;
+        background-color:#4492F7;
+        border:0px;
+        border-radius:25px;
+        span{
+          color:white;
+          margin:0 0 0 10px;
+          text-align: left;
+          font-size: 20px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .section3mobile{
+    display: none;
+  }
+  // .gradientText{
+  //   background: linear-gradient(45deg, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 50%, rgba(247,121,125,1) 100%);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  //   width:20%;
+  // }
+}
+
+
+  .section4{
+    display:block;
+    min-height:75vh;
+    background-color: white;
+    border-radius: 20px;
+    padding-top:10vh;
+    margin-left:10vw;
+    margin-right:10vw;
+    h3{
+      color:#4492F7;
+    }
+    .slider-web{
+      margin-left:5vw;
+      margin-right:5vw;
+      margin-top:10vh;
+      margin-bottom:15vh;
+      .slick-prev::before{
+        color: #1890ff
+      }
+      .slick-next::before{
+        color: #1890ff
+      }
+      .slick-dots{
+        bottom:-50px;
+        li.slick-active button:before{
+          color: #1890ff
+        }
+      }
+      .sliderText{
+        text-align: left;
+        margin-left:100px;
+        p{
+          color:#4492F7;
+        }
+        h4{
+          margin-top:-10px;
+          color:#4492F7;
+        }
+        .desc{
+          font-weight:400;
+          color:black;
+        }
+      }
+      .imageSection{
+        height: 18vw;
+        width : 32vw;
+        max-width: 800px;
+        max-height: 600px;
+      }
+    }
+    .slider-mobile{
+      display: none;
+    }
+  }
+
+  .section5{
+    min-height:75vh;
+    margin-top:15vh;
+    h4{
+      font-size:30px;
+    }
+    .icons{
+      .contactInfo{
+        .email{
+          margin-bottom:10px;
+          img{
+            transform:scale(0.75);
+          }
+          span{
+            font-size:18px;
+            color:white;
+            margin-left:10px;
+          }
+        }
+        .linkedin{
+          img{
+            transform:scale(0.75);
+          }
+          a{
+            font-size:18px;
+            color:white;     
+            margin-left:10px;
+          }
+        }     
+      }
+    }
+    .finalWord{
+      position: relative;
+      top:25vh;
+    }  
+  }
+
+  ////////////////////////////upto 768p screen
+//////////////////////////
+//////////////////////
+//////////////////
+//////////////
+//////////
+//////
+///
+
+@media only screen and (max-width: 1366px){
+  .section1{
+    top: 35vh;
+    .scroll{
+      p{
+        top:16vh;
+      }
+      .arrow-1{
+        top:20vh;
+      }
+      .arrow-2{
+        top:5vh;
+      }
+    }
+  }
+  .section3{
+    .section3web{
+      .section3Card{
+        img{
+          transform:scale(0.8)
+        }
+          span{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+}
+
+////////////////////////////IPAD PRO PORTRAIT
+//////////////////////////
+//////////////////////
+//////////////////
+//////////////
+//////////
+//////
+///
+@media only screen and (max-width: 1024px){
+  .section1{
+    top:45vh;
+    .scroll{
+      p{
+        top:25vh;
+      }
+      .arrow-1{
+        top:30vh;
+      }
+      .arrow-2{
+        top:20vh;
+      }
+    }
+  }
+  .section2{
+    h4{
+      margin-top:-3vh;
+    }
+  }
+  .section3{
+    .section3web{
+      .section3Card{
+        min-height:30vh;
+        border-radius: 50px;
+        margin: 5vh 5vw 0vh 5vw;
+        .section3Button{
+          height:6vw;
+          width:24vw;
+          border-radius:25px;
+        }
+      }
+    }
+  }
+  .section4{
+    padding-top:5vh;
+    .slider-web{
+      display:none
+    }
+    .slider-mobile{
+      display:block;
+      margin-left:5vw;
+      margin-right:5vw;
+      margin-top:5vh;
+      margin-bottom:15vh;
+      .slick-prev{
+        top:15vh;
+      }
+      .slick-prev::before{
+        color: #1890ff;
+      }
+      .slick-next{
+        top:15vh;
+      }
+      .slick-next::before{
+        color: #1890ff
+      }
+      .slick-dots{
+        bottom:-50px;
+        li.slick-active button:before{
+          color: #1890ff
+        }
+      }
+      .sliderText{
+        text-align: center;
+        p{
+          color:#4492F7;
+        }
+        h4{
+          margin-top:-10px;
+          color:#4492F7;
+        }
+        .desc{
+          font-weight:400;
+          color:black;
+        }
+      }
+      .imageSection{
+        max-width: 800px;
+        max-height: 600px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .section5{
+    .section5Button{
+        height:7vw;
+        width:28vw;
+        border-radius:35px;
+    }
+  }
+}
+
+////////////////////////////IPAD PORTRAIT
+//////////////////////////
+//////////////////////
+//////////////////
+//////////////
+//////////
+//////
+///
+@media only screen and (max-width: 768px) {
+    .section2{
+      h1{
+        font-size:50px;
+      }
+      .icons{
+        .round{
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+
+    .section3{
+      min-height:75vh;
+      .section3web{
+        display:none
+      }
+      .section3mobile{
+        display:block;
+        margin: -10vh 5vw 5vh 5vw;
+        .section3Card{
+          background-color:white;
+          min-height:50vh;
+          border:1.5px solid #4492F7;
+          border-radius: 50px;
+          margin: 0vh 5vw 0vh 5vw;
+          color:#4492F7;
+          .slider-mobile{
+            .section3Icon{
+              max-height:15vw;
+              max-width:15vw;
+              margin-top:5vh;
+              margin-bottom:15px;
+              display: flex;
+              justify-content: center;
+            }
+            .section3Title{
+              color:#4492F7;
+            }
+            .section3Desc{
+              color:#4492F7;
+              margin-left:10vw;
+              margin-right: 10vw;
+            }
+            .section3Button{
+              margin-top:2vh;
+              margin-bottom:5vh;
+              height:7vw;
+              width:28vw;
+              background-color:#4492F7;
+              border:0px;
+              border-radius:25px;
+              .buttonContent{
+                margin: 0 auto;
+                width: 90%;
+                img{
+                  display: inline-flex;
+                  max-height: 8vw;
+                }
+                span{
+                  vertical-align: middle;
+                  color:white;
+                  font-weight:600;
+                  font-size:20px;
+                  margin-left:3vw;
+                }      
+              }               
+            }
+            .slick-prev{
+              left:3vw;
+              top:25vh;
+            }
+            .slick-prev::before{
+              color: #1890ff;
+            }
+            .slick-next{
+              right:3vw;
+              top:25vh;
+            }
+            .slick-next::before{
+              color: #1890ff
+            }
+            .slick-dots{
+              bottom:0px;
+              li.slick-active button:before{
+                color: #1890ff
+              }
+            }        
+          }      
+        }
+      }
+    }
+
+
+    .section5{
+      .finalWord{
+        position: relative;
+        top:18vh;
+      } 
+    }
+}
+
+////////////////////////////MOBILE
+//////////////////////////
+//////////////////////
+//////////////////
+//////////////
+//////////
+//////
+///
+@media only screen and (max-width: 576px) {
+  .section1{
+    top:45vh;
+    .hi{
+      font-size: 40px;
+    }
+    .scroll{
+      p{
+        top:15vw;
+        font-size:15px;
+      }
+      .arrow-1{
+        top:35vw;
+        transform:scale(0.4)
+      }
+      .arrow-2{
+        top:5vw;
+        transform:scale(0.4)
+      }
+    } 
+  }
+
+  .section2{
+    margin-top:65vw;
+    h1{
+      font-size:8vw;
+      margin-bottom:1vw;
+    }
+    h4{
+      margin-top:1vw;
+      margin-bottom:20px;
+      font-size:4vw;
+    }
+  }
+
+  .section3{
+    h2{
+      font-size:30px;
+    }
+    .section3mobile{
+      margin: -5vh 0vw 25vh 0vw;
+      .section3Card{
+        border-radius:20px;
+        margin: -100px 5vw 5vh 5vw;
+        .slider-mobile{
+          .section3Icon{
+            min-height:25vw;
+            max-height:25vw;
+            max-width: 25vw;
+          }
+          .section3Desc{
+            font-size: 15px;
+          }
+          .section3Button{
+            height:14vw;
+            width: 48vw;
+            .buttonContent{
+              span{
+                font-size:5vw;
+              } 
+            }                     
+          }
+          .slick-prev{
+            top:30vh;
+          }
+          .slick-next{
+            top:30vh;
+          }
+          .slick-dots{
+            bottom:-50px;
+            li button::before{
+              opacity:1;
+              color: white
+            }
+          } 
+        }
+       
+      }
+    }
+  }
+  .section4{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 15px;
+    .slider-mobile{
+      .slick-prev{
+        left:-5vw;
+        top:250px;
+      }
+      .slick-next{
+        right: -5vw;
+        top:250px;
+      }
+      .sliderText{
+        p{
+          font-size:15px;
+          margin-left:3vw;
+          margin-right:3vw;
+        }
+        h4{
+          font-size:20px;
+        }
+      }
+      .imageSection{
+        height: 54vw;
+        width: 72vw;
+      }
+    }
+  }
+
+  .section5{
+    margin-bottom:10vh;
+    margin-left:10vw;
+    margin-right:10vw;
+    h4{
+      font-size:18px;
+    }
+    p{
+      font-size:14px;
+    }
+    .section5Button{
+        height:14vw;
+        width: 48vw;
+    }
+    .icons{
+      .contactInfo{
+        .email{
+          img{
+            transform:scale(0.5);
+          }
+          span{
+            font-size:15px;
+            margin-left:10px;
+          }
+        }
+        .linkedin{
+          img{
+            transform:scale(0.5);
+          }
+          a{
+            font-size:15px;    
+            margin-left:10px;
+          }
+        }     
+      }
+    }
+    .finalWord{
+      position: relative;
+      top:20vh;
+    }
+  }
+
+}
+
+
+
+  
