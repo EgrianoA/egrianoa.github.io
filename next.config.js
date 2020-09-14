@@ -1,6 +1,6 @@
 const withSass = require('@zeit/next-sass');
 const isProd = (process.env.NODE_ENV || 'production') === 'production'
-const assetPrefix = isProd ? '/personal-page-v2-dev' : ''
+const assetPrefix = isProd ? '' : ''
 const webpack = require('webpack')
 module.exports = withSass({
     devIndicators: {
