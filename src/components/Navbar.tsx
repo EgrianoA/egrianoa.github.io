@@ -148,16 +148,19 @@ const Navbar = () => {
           <div
             onClick={() => handleScroll('#home')}
             style={{
-              fontSize: '20px',
-              fontWeight: 700,
-              background: 'linear-gradient(135deg, #2196f3 0%, #42a5f5 100%)',
-              backgroundClip: 'text',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
               cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
             }}
           >
-            EA
+            <img
+              src="/assets/logo.png"
+              alt="Egriano Aristianto"
+              style={{
+                height: '50px',
+                width: 'auto',
+              }}
+            />
           </div>
 
           {/* Desktop Navigation */}
