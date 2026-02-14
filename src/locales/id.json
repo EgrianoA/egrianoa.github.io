@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "skills": "Keahlian",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "greeting": "Halo! Perkenalkan, saya",
+    "name": "Egriano Aristianto",
+    "title": "Seorang Fullstack Engineer",
+    "subtitle": "Telah {{years}}+ tahun membangun platform digital yang andal untuk mendorong pertumbuhan bisnis",
+    "cta": "Hubungi saya",
+    "scrollDown": "Scroll ke bawah"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description": "Perkenalkan! Saya adalah seorang Fullstack Engineer dengan pengalaman membangun platform digital end-to-end yang andal di berbagai industri, termasuk enterprise SaaS, conversational AI, fintech, dan health-tech. Saya berspesialisasi dalam merancang dan mengembangkan aplikasi web terintegrasi menggunakan React, TypeScript, GraphQL, dan Node.js, dengan keahlian kuat dalam integrasi sistem, arsitektur microservices, dan orkestrasi platform pihak ketiga. Pekerjaan saya berfokus pada pengembangan sistem yang production-ready yang menghubungkan proses bisnis yang kompleks, mengotomatisasi alur kerja, dan memungkinkan pengambilan keputusan berbasis data."
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "current": "Sekarang",
+    "jobs": [
+      {
+        "company": "Appvantage",
+        "location": "Singapura",
+        "role": "Senior Fullstack Engineer",
+        "period": "April 2023 - Sekarang",
+        "description": "Merancang platform digital tingkat enterprise yang mendukung proses bisnis end-to-end yang kompleks, termasuk alur kerja penjualan, orkestrasi pembiayaan, otomasi dokumen, pemrosesan pembayaran, dan keterlibatan pelanggan berbasis AI yang diterapkan di pasar internasional, meningkatkan efisiensi operasional dan memungkinkan keputusan bisnis berbasis data.",
+        "highlights": [
+          "Membangun solusi full-stack yang skalabel menggunakan React, TypeScript, GraphQL, dan Node.js",
+          "Mengintegrasikan layanan pihak ketiga termasuk payment gateway, penyedia tanda tangan elektronik, dan sistem AI",
+          "Menerapkan solusi di pasar internasional dengan fokus pada efisiensi operasional"
+        ]
+      },
+      {
+        "company": "Yellow.ai",
+        "location": "India",
+        "role": "Solution Engineer",
+        "period": "Nov 2020 - Maret 2023",
+        "description": "Memimpin desain solusi dan implementasi teknis untuk proyek chatbot enterprise dan conversational AI di berbagai industri. Fokus terutama pada logika backend bisnis, integrasi pihak ketiga, dan kemampuan komunikasi omnichannel untuk membangun sistem percakapan yang skalabel.",
+        "highlights": [
+          "Merancang dan mengimplementasikan solusi chatbot enterprise di berbagai industri",
+          "Membangun logika backend untuk platform conversational AI",
+          "Memungkinkan integrasi dengan platform eksternal untuk memperluas fungsi di seluruh ekosistem bisnis"
+        ]
+      },
+      {
+        "company": "Gorry Holdings",
+        "location": "Indonesia",
+        "role": "Fullstack Developer",
+        "period": "Okt 2019 - Nov 2020",
+        "description": "Membangun sistem backend berbasis microservices dan aplikasi web responsif yang mendukung platform transaksional dan dashboard korporat. Pembangunan produk terutama berfokus pada produk digital health-tech dan F&B.",
+        "highlights": [
+          "Mengembangkan arsitektur microservices untuk platform transaksional",
+          "Membangun aplikasi web responsif untuk industri health-tech dan F&B",
+          "Membuat dashboard korporat untuk business intelligence"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Keahlian Teknis",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "TypeScript",
+          "JavaScript",
+          "Antd Design",
+          "Material UI",
+          "Tailwind CSS",
+          "GraphQL Client",
+          "Apollo Client",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "Apollo Server",
+          "REST APIs",
+          "Microservices",
+          "WebSockets"
+        ]
+      },
+      "database": {
+        "title": "Database & Penyimpanan",
+        "items": ["MongoDB", "Redis", "PostgreSQL", "AWS S3"]
+      },
+      "tools": {
+        "title": "Tools & Platform",
+        "items": [
+          "Git",
+          "Docker",
+          "AWS",
+          "CI/CD",
+          "Jira",
+          "Postman",
+          "VS Code",
+          "Linux"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyek Utama",
+    "items": [
+      {
+        "title": "Platform Digital Enterprise",
+        "period": "2023 - Sekarang",
+        "description": "Platform digital end-to-end yang mendukung alur kerja penjualan, orkestrasi pembiayaan, otomasi dokumen, pemrosesan pembayaran, dan keterlibatan pelanggan berbasis AI.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "GraphQL",
+          "Node.js",
+          "MongoDB",
+          "AWS"
+        ],
+        "highlights": [
+          "Diterapkan di pasar internasional",
+          "Mengintegrasikan berbagai layanan pihak ketiga",
+          "Fitur keterlibatan pelanggan berbasis AI"
+        ]
+      },
+      {
+        "title": "Platform Conversational AI Enterprise",
+        "period": "2020 - 2023",
+        "description": "Solusi chatbot dan conversational AI yang skalabel untuk klien enterprise di berbagai industri dengan dukungan omnichannel.",
+        "technologies": [
+          "Node.js",
+          "React",
+          "REST APIs",
+          "WebSockets",
+          "Integrasi pihak ketiga"
+        ],
+        "highlights": [
+          "Implementasi enterprise multi-industri",
+          "Dukungan komunikasi omnichannel",
+          "Integrasi pihak ketiga yang kompleks"
+        ]
+      },
+      {
+        "title": "Solusi Digital Health-tech & F&B",
+        "period": "2019 - 2020",
+        "description": "Platform transaksional berbasis microservices dan dashboard korporat untuk industri health-tech dan F&B.",
+        "technologies": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Microservices",
+          "REST APIs"
+        ],
+        "highlights": [
+          "Arsitektur microservices",
+          "Pemrosesan transaksi real-time",
+          "Dashboard business intelligence"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Mari Terhubung",
+    "description": "Saya saat ini terbuka untuk peluang baru dan proyek yang menarik. Jangan ragu untuk menghubungi jika Anda ingin terhubung!",
+    "email": "EgrianoA@gmail.com",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "hackerrankLabel": "HackerRank",
+    "dribbbleLabel": "Dribbble"
+  },
+  "footer": {
+    "designed": "Dirancang dan dikembangkan dengan",
+    "by": "oleh Egriano Aristianto",
+    "rights": "Hak cipta dilindungi"
+  },
+  "language": {
+    "english": "English",
+    "indonesian": "Bahasa Indonesia"
+  },
+  "theme": {
+    "light": "Terang",
+    "dark": "Gelap"
+  },
+  "menu": {
+    "title": "Menu"
+  }
+}

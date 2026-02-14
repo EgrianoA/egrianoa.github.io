@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello! I'm",
+    "name": "Egriano Aristianto",
+    "title": "A Fullstack Engineer",
+    "subtitle": "{{years}}+ years building scalable digital platforms that drive business growth",
+    "cta": "Get in touch",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Greetings! I'm a Fullstack Engineer with experience building scalable end-to-end digital platforms across multiple industries, including enterprise SaaS, conversational AI, fintech, and health-tech. I specialize in designing and developing integrated web applications using React, TypeScript, GraphQL, and Node.js, with strong expertise in system integration, microservices architecture, and third-party platform orchestration. My work focuses on delivering production-ready systems that connect complex business processes, automate workflows, and enable data-driven decision-making."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "current": "Present",
+    "jobs": [
+      {
+        "company": "Appvantage",
+        "location": "Singapore",
+        "role": "Senior Fullstack Engineer",
+        "period": "April 2023 - Present",
+        "description": "Engineered enterprise-grade digital platforms that support complex end-to-end business processes, including sales workflows, financing orchestration, document automation, payment processing, and AI-driven customer engagement that being deployed across international markets, improving operational efficiency and enabling data-driven business decisions.",
+        "highlights": [
+          "Built scalable full-stack solutions using React, TypeScript, GraphQL, and Node.js",
+          "Integrated third-party services including payment gateways, e-signature providers, and AI systems",
+          "Deployed solutions across international markets with focus on operational efficiency"
+        ]
+      },
+      {
+        "company": "Yellow.ai",
+        "location": "India",
+        "role": "Solution Engineer",
+        "period": "Nov 2020 - March 2023",
+        "description": "Led solution design and technical implementation for enterprise chatbot and conversational AI projects across multiple industries. Focused mainly on business backend logic, third-party integrations, and omnichannel communication capabilities to build scalable conversational systems.",
+        "highlights": [
+          "Designed and implemented enterprise chatbot solutions across multiple industries",
+          "Built backend logic for conversational AI platforms",
+          "Enabled integrations with external platforms to extend functionality across business ecosystems"
+        ]
+      },
+      {
+        "company": "Gorry Holdings",
+        "location": "Indonesia",
+        "role": "Fullstack Developer",
+        "period": "Oct 2019 - Nov 2020",
+        "description": "Built microservices-based backend systems and responsive web applications supporting transactional platforms and corporate dashboards. Product build mainly focused on health-tech and F&B-focused digital products.",
+        "highlights": [
+          "Developed microservices architecture for transactional platforms",
+          "Built responsive web applications for health-tech and F&B industries",
+          "Created corporate dashboards for business intelligence"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "TypeScript",
+          "JavaScript",
+          "Antd Design",
+          "Material UI",
+          "Tailwind CSS",
+          "GraphQL Client",
+          "Apollo Client",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "Apollo Server",
+          "REST APIs",
+          "Microservices",
+          "WebSockets"
+        ]
+      },
+      "database": {
+        "title": "Database & Storage",
+        "items": ["MongoDB", "Redis", "PostgreSQL", "AWS S3"]
+      },
+      "tools": {
+        "title": "Tools & Platform",
+        "items": [
+          "Git",
+          "Docker",
+          "AWS",
+          "CI/CD",
+          "Jira",
+          "Postman",
+          "VS Code",
+          "Linux"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Key Projects",
+    "items": [
+      {
+        "title": "Enterprise Digital Platform",
+        "period": "2023 - Present",
+        "description": "End-to-end digital platform supporting sales workflows, financing orchestration, document automation, payment processing, and AI-driven customer engagement.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "GraphQL",
+          "Node.js",
+          "MongoDB",
+          "AWS"
+        ],
+        "highlights": [
+          "Deployed across international markets",
+          "Integrated multiple third-party services",
+          "AI-powered customer engagement features"
+        ]
+      },
+      {
+        "title": "Enterprise Conversational AI Platform",
+        "period": "2020 - 2023",
+        "description": "Scalable chatbot and conversational AI solutions for enterprise clients across multiple industries with omnichannel support.",
+        "technologies": [
+          "Node.js",
+          "React",
+          "REST APIs",
+          "WebSockets",
+          "Third-party integrations"
+        ],
+        "highlights": [
+          "Multi-industry enterprise deployments",
+          "Omnichannel communication support",
+          "Complex third-party integrations"
+        ]
+      },
+      {
+        "title": "Health-tech & F&B Digital Solutions",
+        "period": "2019 - 2020",
+        "description": "Microservices-based transactional platforms and corporate dashboards for health-tech and F&B industries.",
+        "technologies": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Microservices",
+          "REST APIs"
+        ],
+        "highlights": [
+          "Microservices architecture",
+          "Real-time transaction processing",
+          "Business intelligence dashboards"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm currently open to new opportunities and interesting projects. Feel free to reach out if you'd like to connect!",
+    "email": "EgrianoA@gmail.com",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "hackerrankLabel": "HackerRank",
+    "dribbbleLabel": "Dribbble"
+  },
+  "footer": {
+    "designed": "Designed and developed with",
+    "by": "by Egriano Aristianto",
+    "rights": "All rights reserved"
+  },
+  "language": {
+    "english": "English",
+    "indonesian": "Bahasa Indonesia"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "menu": {
+    "title": "Menu"
+  }
+}

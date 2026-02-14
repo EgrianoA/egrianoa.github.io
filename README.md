@@ -1,30 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Egriano Aristianto - Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio website built with React, TypeScript, Material UI, and Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
+
+- 🎨 **Clean & Minimalist Design** - Professional blue color palette with modern aesthetics
+- 🌓 **Dark/Light Mode** - Seamless theme switching with persistent preferences
+- 🌍 **Internationalization** - Full support for English and Indonesian (Bahasa Indonesia)
+- 📱 **Fully Responsive** - Optimized for all devices from mobile to desktop
+- ✨ **Smooth Animations** - Fade-in effects and parallax scrolling using Framer Motion
+- ⚡ **Fast Performance** - Built with Vite for lightning-fast development and optimized builds
+- 🚀 **GitHub Pages Ready** - Automated deployment with GitHub Actions
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **UI Library**: Material UI (MUI)
+- **Styling**: Tailwind CSS + Emotion
+- **Animations**: Framer Motion
+- **Internationalization**: react-i18next
+- **Deployment**: GitHub Pages
+
+## 📦 Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Deployment
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Automatic Deployment (Recommended)
 
-## Learn More
+This project uses GitHub Actions for automatic deployment. When you push to the `main` branch, it will automatically build and deploy to GitHub Pages.
 
-To learn more about Next.js, take a look at the following resources:
+1. Go to your repository Settings → Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. Push to `main` branch - your site will be automatically deployed!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Manual Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm run deploy
+```
 
-## Deploy on Vercel
+## 📝 Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Update Content
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Edit the translation files to customize content:
+- English: `src/locales/en.json`
+- Indonesian: `src/locales/id.json`
+
+### Modify Theme
+
+Edit the theme configuration in `src/ThemeProvider.tsx` to customize colors, typography, and component styles.
+
+### Add/Remove Sections
+
+Modify `src/App.tsx` to add or remove sections from your portfolio.
+
+## 📄 License
+
+© 2026 Egriano Aristianto. All rights reserved.
+
+## 🤝 Connect
+
+- **Email**: EgrianoA@gmail.com
+- **LinkedIn**: [linkedin.com/in/egrianoaristianto](https://www.linkedin.com/in/egrianoaristianto/)
+- **GitHub**: [github.com/EgrianoA](https://github.com/EgrianoA)
+
